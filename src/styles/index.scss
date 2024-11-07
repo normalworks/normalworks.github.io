@@ -1,6 +1,7 @@
-@use './variables.scss';
-@use './preflight.css';
-@use './tailwind.css';
+@use "./variables.scss";
+@use "./preflight.css";
+@use "./tailwind.css";
+@use "./markdown.css";
 
 html {
   height: 100%;
@@ -8,6 +9,7 @@ html {
 
 body {
   height: 100%;
+  overflow-y: scroll;
 }
 
 #root {
